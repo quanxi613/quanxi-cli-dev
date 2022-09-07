@@ -1,6 +1,6 @@
 {
   "name": "@quanxi-cli-dev/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "quanxi-cli-dev core",
   "author": "quanxi613 <quanxi613@126.com>",
   "homepage": "",
@@ -17,6 +17,6 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@quanxi-cli-dev/utils": "^1.0.1"
+    "@quanxi-cli-dev/utils": "^1.0.2"
   }
 }
