@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'create' ], lernaVersion: '5.5.0', '$0': 'lerna', name: 'core' }
+1 notice cli v5.5.0
+2 verbose rootPath /Users/quanxi/Desktop/learning/CTBRI-CLI-DEV
+3 error Error: Command failed with exit code 1: git config --get user.email
+3 error     at makeError (/Users/quanxi/Desktop/learning/CTBRI-CLI-DEV/node_modules/execa/lib/error.js:60:11)
+3 error     at Function.module.exports.sync (/Users/quanxi/Desktop/learning/CTBRI-CLI-DEV/node_modules/execa/index.js:194:17)
+3 error     at Object.execSync (/Users/quanxi/Desktop/learning/CTBRI-CLI-DEV/node_modules/@lerna/child-process/index.js:39:16)
+3 error     at CreateCommand.gitConfig (/Users/quanxi/Desktop/learning/CTBRI-CLI-DEV/node_modules/@lerna/create/index.js:180:25)
+3 error     at CreateCommand.initialize (/Users/quanxi/Desktop/learning/CTBRI-CLI-DEV/node_modules/@lerna/create/index.js:106:47)
+3 error     at /Users/quanxi/Desktop/learning/CTBRI-CLI-DEV/node_modules/@lerna/command/index.js:281:24
