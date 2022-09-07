@@ -1,15 +1,10 @@
-32 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
-32 error npm ERR! code E404
-32 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@quanxi-cli-dev%2futils - Not found
-32 error npm ERR! 404
-32 error npm ERR! 404  '@quanxi-cli-dev/utils@^1.0.3' is not in this registry.
-32 error npm ERR! 404
-32 error npm ERR! 404 Note that you can also install from a
-32 error npm ERR! 404 tarball, folder, http url, or git url.
-32 error
-32 error npm ERR! A complete log of this run can be found in:
-32 error npm ERR!     /Users/quanxi/.npm/_logs/2022-09-07T07_43_25_366Z-debug-0.log
-32 error     at makeError (/Users/quanxi/Desktop/learning/quanxi-cli-dev/node_modules/execa/lib/error.js:60:11)
-32 error     at handlePromise (/Users/quanxi/Desktop/learning/quanxi-cli-dev/node_modules/execa/index.js:118:26)
-32 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-32 error     at async Promise.all (index 0)
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/quanxi613/quanxi-cli-dev.git/': Failed to connect to github.com port 443: Operation timed out
+15 error error: Could not fetch origin
+15 error Fetching origin
+15 error     at makeError (/Users/quanxi/Desktop/learning/quanxi-cli-dev/node_modules/execa/lib/error.js:60:11)
+15 error     at Function.module.exports.sync (/Users/quanxi/Desktop/learning/quanxi-cli-dev/node_modules/execa/index.js:194:17)
+15 error     at Object.execSync (/Users/quanxi/Desktop/learning/quanxi-cli-dev/node_modules/@lerna/child-process/index.js:39:16)
+15 error     at updateRemote (/Users/quanxi/Desktop/learning/quanxi-cli-dev/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (/Users/quanxi/Desktop/learning/quanxi-cli-dev/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (/Users/quanxi/Desktop/learning/quanxi-cli-dev/node_modules/@lerna/version/index.js:156:9)
